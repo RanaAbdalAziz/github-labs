@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 public class check {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/sakila";
     private static final String USER = "root";
-    private static final String PASSWORD = "Ali@$1234";
+    private static final String PASSWORD = "aziz0909";
 
     public static void main(String[] args) {
         Connection connection = null;
@@ -32,6 +32,8 @@ public class check {
             // Step 4: Execute SQL SELECT query
             String sql = "SELECT * FROM actor;";
             ResultSet resultSet = statement.executeQuery(sql);
+            
+           
 
             // Process the result set
             while (resultSet.next()) {
